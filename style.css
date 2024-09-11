@@ -1,0 +1,94 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+body{
+  margin: 0%;
+  padding: 0%;
+
+}
+
+
+.App{
+  text-align: center;
+}
+.App-logo{
+ width: 100px;
+ height: 100px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.login-button{
+  background:linear-gradient(180deg,#5aacdf,#16293b);
+  border:none;
+  border-radius:25px;
+  box-shadow:0 4px 6px #0000001a;
+  color:#fff;
+  display:inline-block;
+  font-family:Times New Roman,Times,serif;
+  font-size:16px;
+  margin-top:20px;
+  padding:12px 25px;
+  text-align:center;
+  text-decoration:none;
+  transition:box-shadow .3s
+}
+  .login-button:hover{
+  box-shadow:0 6px 8px #0003
+}
+  .login-button:hover{
+  background:linear-gradient(180deg,#16293b,#5aacdf)
+}
+  .login-button:active{
+  box-shadow:0 2px 4px #0000001a
+}    
+  .App-header,
+
+  .form-style{
+  display:flex;justify-content:center
+}
+  .App-header{
+  align-items:center;
+  background-color:#192a3a;
+  color:#fff;
+  flex-direction:column;
+  min-height:100vh
+}
+ marquee.marqe{
+    margin-top: 20px;
+  color: white;
+  width: 100%;
+  margin-left:0px;
+}
+  .button-container{
+  display: flex;
+  gap: 10px;
+}
+
+  h1#heading{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+
+  .websites{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 7px;
+    margin: 3px;
+    background-color: #2c536b;
+    border-radius: 10px;
+  }
+  .websites:hover{
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #5aacdf;
+
+  }
